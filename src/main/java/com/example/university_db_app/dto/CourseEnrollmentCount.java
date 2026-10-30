@@ -1,5 +1,8 @@
 package com.example.university_db_app.dto;
 
-public class CourseEnrollmentCount {
-    
+public interface CourseEnrollmentCount {
+ String getCourseCode();
+ String getTitle();
+ Long getStudentCount();
 }
+
